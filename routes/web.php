@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 
-Route::get('/articles/{id}', function ($id) {
-    echo "Halaman Artikel dengan ID $id";
+Route::get('/', function () {
+    echo "Selamat Datang";
 });
