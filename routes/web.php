@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 
-Route::get('/', function () {
-    echo "Selamat Datang";
+Route::get('/about', function () {
+    echo "2041720173 Novianawati";
 });
